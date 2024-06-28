@@ -1,5 +1,5 @@
 const { CustomAPIError } = require('../errors/custom-errors')
-//middleware custom error handler to handle our errors since using the async middleware for trycatch isnt handling them 
+//middleware custom error handler to handle our errors since using the async middleware for trycatch isnt handling them
 const errorHandler = (err, req, res, next) => { //the error that will be coming from the asyncWrapper
   // console.log(err);
   // return res.status(err.status).json({ msg: err.message });

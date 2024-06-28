@@ -12,3 +12,4 @@ const createCustomError = (msg, statusCode) => {
 }
 
 module.exports = {createCustomError, CustomAPIError};
+
